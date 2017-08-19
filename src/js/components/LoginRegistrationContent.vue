@@ -103,7 +103,11 @@
                             this.selected = '';
                             this.email = '';
                             this.password = '';
-                            alert('Account has been created');
+                          if (Object.keys(response.data.data).length != 0 && response.data.data.constructor === Object){
+                            setTimeout ( () => {
+                                window.location.replace(response.data.data.redirectUrl);
+                            }, 1000);
+                        }
                           })
                           .catch(function (error) {
                             console.log(error);
