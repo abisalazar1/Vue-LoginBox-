@@ -1,0 +1,64 @@
+@import url(/node_modules/bootstrap/dist/css/bootstrap.css);@import url(/src/css/paper.css);.primary_color_header {
+  background: #577784;
+  padding: 10px;
+}
+
+.primary_color_header h3 {
+  color: white;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.primary_btn_color {
+  background: #1695fe;
+}
+
+.primary_link_color {
+  color: #1695fe;
+}
+
+.form_container {
+  margin: 25px;
+}
+
+.container_left {
+  float: left;
+  margin: 15px;
+}
+
+.btn-blank {
+  background: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #1695fe !important;
+}
+
+.btn-blank:hover {
+  background: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #1695fe !important;
+}
+
+.btn-blank:focus {
+  background: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #1695fe;
+}
+
+.btn-blank:active {
+  background: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #1695fe !important;
+}
+
+.error {
+  color: #b04f61;
+}
+
