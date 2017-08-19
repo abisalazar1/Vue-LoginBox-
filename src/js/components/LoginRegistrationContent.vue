@@ -103,7 +103,7 @@
                             this.selected = '';
                             this.email = '';
                             this.password = '';
-                            console.log(response.data);
+                            alert('Account has been created');
                           })
                           .catch(function (error) {
                             console.log(error);
